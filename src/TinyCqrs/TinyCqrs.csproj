@@ -40,10 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApplicationRoot.cs" />
+    <Compile Include="IHandle.cs" />
+    <Compile Include="IQueryAgent.cs" />
     <Compile Include="ICommand.cs" />
+    <Compile Include="ICommandAgent.cs" />
+    <Compile Include="IPublisher.cs" />
     <Compile Include="IQuery.cs" />
     <Compile Include="IQueryArgs.cs" />
+    <Compile Include="ISubscriptions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

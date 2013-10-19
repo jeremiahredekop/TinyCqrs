@@ -60,12 +60,12 @@
     <Compile Include="Support\Query1Args.cs" />
     <Compile Include="Support\SpecificationBase.cs" />
     <Compile Include="Support\ThenAttribute.cs" />
-    <Compile Include="When_resolving_command.cs" />
+    <Compile Include="when_resolving_command.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="when_resolving_func_through_locator.cs" />
     <Compile Include="when_resolving_many_through_locator.cs" />
     <Compile Include="when_resolving_named_through_locator.cs" />
-    <Compile Include="When_resolving_query.cs" />
+    <Compile Include="when_resolving_query.cs" />
     <Compile Include="when_resolving_strongly_typed_through_locator.cs" />
     <Compile Include="when_resolving_weakly_typed_through_locator.cs" />
   </ItemGroup>

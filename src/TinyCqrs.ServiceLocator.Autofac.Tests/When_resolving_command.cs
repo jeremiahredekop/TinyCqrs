@@ -7,7 +7,7 @@ using TinyCqrs.ServiceLocator.Autofac;
 
 namespace TinyCQRS.Autofac.Tests
 {
-    public class When_resolving_command : SpecificationBase
+    public class when_resolving_command : SpecificationBase
     {
         private ICommand<Command1Args> _command;
         private IContainer _container;

@@ -6,7 +6,7 @@ using TinyCqrs.ServiceLocator.Autofac;
 
 namespace TinyCQRS.Autofac.Tests
 {
-    public class When_resolving_query : SpecificationBase
+    public class when_resolving_query : SpecificationBase
     {
         private IQuery<Query1Args, string> _command;
         private IContainer _container;
